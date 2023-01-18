@@ -1,0 +1,38 @@
+Q) LIBRARY VS FRAMEWORK
+
+Ans: Library: It is just a collection of various functions which you can call to perform certain operations.
+
+Framework:It is a software/application , it helps in building particular type of application.
+
+
+Q: Why is React known as React?
+
+Ans:React was developed for applications (Facebook) that have constantly changing data. Since React is a front-end 
+framework or the “View” in MVC, this means that as the user clicks around and changes 
+the app’s data, the view should “react” or change with those user events.
+ User events being mouse clicks, typing, submitting a form.
+
+
+Q) CORS?
+
+Ans: Sharing resource btw different origins/domains.
+
+Q) What is diference between React and ReactDOM
+
+Ans: ReactDOM is the glue between React and the DOM.
+Often, you will only use it for one single thing: mounting with ReactDOM.render()
+For everything else, there's React. You use React to define and create your elements,
+for lifecycle hooks, etc. i.e. the guts of a React application.
+
+Q) What is difference between react.development.js and react.production.js files via CDN?
+
+Ans: The development build is used for development reasons. 
+You have Source Maps, debugging and often times hot reloading ability in those builds.
+The production build, on the other hand, runs in production mode which means this is the 
+code running on your client's machine.
+
+
+Q) Async vs defer ?
+Ans: Async: Does not gurantee the order of execution.
+     Defer: HTML parsing is completed and then scripts are executed once the parsing
+      is complete.It gurantee the order of execution.

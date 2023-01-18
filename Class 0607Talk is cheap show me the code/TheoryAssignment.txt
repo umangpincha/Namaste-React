@@ -1,0 +1,30 @@
+Q1) IS JSX mandatory for React?
+Ans 1) No, we can use react element too.
+
+Q2)Is ES6 mandatory for React?
+Ans 2) No
+
+Q3) {TitleComponent} = Calling React Element
+    {<TitleComponent />} = Calling Functional component
+    {<TitleComponent></TitleComponent>} = Calling Functional component
+
+Q4) <React.Fragment></React.Fragment> = Empty Tags
+    <>/<> = Same as React.Fragment(aka empty tag)
+
+Q5) What is React Fiber?
+Ans 5) Its like a reconciliation engine resposible for DIFF algo.
+
+Q6) Why do we need keys in react?
+Ans 6) suppose we have 4 div and 1 more 5th div is 
+introduced and if we have keys then it will render that particular key so thats y we need keys.
+
+Q7) Can we use index as keys in React?
+Ans 7) Yes , we can use index as keys in react but its not recommended , its better to use unique key.
+
+Q8) What is props in react ?
+Ans 8) props is a short form for properties, its just like passing arguments to a function are props.
+
+Q9) What is a config Driven UI?
+Ans 9) It means when u design a UI which is config driven means, you website will be dynamic, depends on 
+from where you are opeening(Eg:Swiggy Website offers will be different in kolkata and Jaipur)
+  
