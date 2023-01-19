@@ -21,7 +21,7 @@ const RestaurantCard = ({name,cuisines,totalRatingsString,cloudinaryImageId})=>{
 function filterdata(searchText , restaurants){
   const filterData =  restaurants.filter((restaurant)=>restaurant.data.data.name.includes(searchText));
   // console.log(filterData);
-  return filterData;
+  return filterData; 
 } 
 const Body = ()=>{
   //  const searchText = "KFC"
