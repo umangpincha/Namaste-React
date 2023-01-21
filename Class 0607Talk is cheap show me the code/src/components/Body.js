@@ -27,7 +27,8 @@ const Body = ()=>{
   //  const searchText = "KFC"
   const [searchInput , setSearchInput] = useState(""); //To create state variable, returns array
   const [restaurants , setRestaurants]  = useState(restaurantList);
-    return(
+  console.log(restaurants); 
+  return(
         <>
           <div className="searchBox">
             <input type="text" className="search-input" placeholder="search" value={searchInput} onChange={(e)=>{
