@@ -1,0 +1,17 @@
+{
+  "name": "ep-2ingitingapp",
+  "version": "1.0.0",
+  "description": "We will ignote our app",
+  "author": "Umang",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
