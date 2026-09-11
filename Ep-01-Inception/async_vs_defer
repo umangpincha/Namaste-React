@@ -1,0 +1,8 @@
+TODO: Normal:
+Parsing -> fetching -> executing -> parsing again
+
+TODO: ASYNC
+Parsing -> parallely fetching -> once fetching is done then executing -> parsing again
+
+TODO: Defer
+parsing ->  parallely fetching -> It will stop only when parsing is finished -> Now executing
